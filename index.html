@@ -1,114 +1,420 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
+
 <head>
-	<title>Mohita Chowdhury - Personal Website</title>
-	<style>
-		body {
-			font-family: Arial, sans-serif;
-			margin: 0;
-			padding: 0;
-			background-color: #F5F5F5;
-		}
-		header {
-			background-color: #2B4162;
-			color: #FFF;
-			padding: 20px;
-			text-align: center;
-		}
-		h1 {
-			font-size: 36px;
-			margin-bottom: 10px;
-			color: #FFF;
-		}
-		img {
-			display: block;
-			margin: 20px auto;
-			border-radius: 50%;
-			max-width: 200px;
-			height: auto;
-		}
-		section {
-			max-width: 800px;
-			margin: 0 auto;
-			padding: 20px;
-			background-color: #FFF;
-			box-shadow: 0 0 10px rgba(0,0,0,0.2);
-			margin-top: 20px;
-			margin-bottom: 20px;
-		}
-		h2 {
-			font-size: 24px;
-			margin-bottom: 10px;
-			color: #2B4162;
-		}
-		p {
-			font-size: 16px;
-			line-height: 1.5;
-			margin-bottom: 20px;
-			color: #444;
-		}
-		a {
-			color: #2B4162;
-			text-decoration: none;
-			font-weight: bold;
-		}
-		ul {
-			list-style: none;
-			padding: 0;
-			margin: 0;
-		}
-		li {
-			margin-bottom: 20px;
-			overflow: hidden;
-			padding-left: 100px;
-			position: relative;
-			border-left: 4px solid #2B4162;
-			padding-top: 20px;
-			padding-bottom: 20px;
-		}
-		li img {
-			border: 1px solid #DDD;
-			border-radius: 5px;
-			float: left;
-			height: 80px;
-			margin-left: -100px;
-			margin-right: 10px;
-			width: 80px;
-		}
-	</style>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-126555305-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-126555305-1');
+</script>
+
+  <meta name=viewport content=“width=800”>
+  <meta name="generator" content="HTML Tidy for Linux/x86 (vers 11 February 2007), see www.w3.org">
+  <style type="text/css">
+    /* Color scheme stolen from Sergey Karayev */
+    
+    a {
+      color: #1772d0;
+      text-decoration: none;
+    }
+    
+    a:focus,
+    a:hover {
+      color: #f09228;
+      text-decoration: none;
+    }
+    
+    body,
+    td,
+    th,
+    tr,
+    p,
+    a {
+      font-family: 'Lato', Verdana, Helvetica, sans-serif;
+      font-size: 14px
+    }
+    
+    strong {
+      font-family: 'Lato', Verdana, Helvetica, sans-serif;
+      font-size: 14px;
+    }
+    
+    heading {
+      font-family: 'Lato', Verdana, Helvetica, sans-serif;
+      font-size: 22px;
+    }
+    
+    papertitle {
+      font-family: 'Lato', Verdana, Helvetica, sans-serif;
+      font-size: 14px;
+      font-weight: 700
+    }
+    
+    name {
+      font-family: 'Lato', Verdana, Helvetica, sans-serif;
+      font-size: 32px;
+    }
+    
+    .one {
+      width: 160px;
+      height: 160px;
+      position: relative;
+    }
+    
+    .two {
+      width: 160px;
+      height: 160px;
+      position: absolute;
+      transition: opacity .2s ease-in-out;
+      -moz-transition: opacity .2s ease-in-out;
+      -webkit-transition: opacity .2s ease-in-out;
+    }
+    
+    .fade {
+      transition: opacity .2s ease-in-out;
+      -moz-transition: opacity .2s ease-in-out;
+      -webkit-transition: opacity .2s ease-in-out;
+    }
+    
+    span.highlight {
+      background-color: #ffffd0;
+    }
+  </style>
+  <link rel="icon" type="image/png" href="seal_icon.png">
+  <title>Aditya</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
+  <link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
 </head>
+
 <body>
-	<header>
-		<h1>Mohita Chowdhury</h1>
-	</header>
-	<img src="pic.jpeg" alt="Mohita Chowdhury">
-	<section>
-		<h2>About Me</h2>
-		<p>Write some description about yourself and your work here.</p>
-		<ul>
-			<li><a href="https://github.com/mohiitaa">Github</a></li>
-			<li><a href="https://www.linkedin.com/in/mohiitaa/">LinkedIn</a></li>
-			<li><a href="Mohita_Chowdhury_CV.pdf">Resume</a></li>
-		</ul>
-	</section>
-	<section>
-		<h2>Research</h2>
-		<p>Mention your publications and link your papers here.</p>
-        <ul>
-			<li>
-				<img src="pic.jpeg" alt="Publication 1 Image">
-				<h3>Can deep learning models understand natural language descriptions of patient symptoms following cataract surgery?</h3>
-				<p>Publication 1 Description</p>
-				<a href="https://iovs.arvojournals.org/article.aspx?articleid=2782762">ARVO</a>
-			</li>
-			<!-- <li>
-				<img src="publication_2_image.jpg" alt="Publication 2 Image">
-				<h3>Publication 2 Title</h3>
-				<p>Publication 2 Description</p>
-				<a href="publication_2_link">Publication 2 Link</a>
-			</li> -->
-			<!-- Add more publication tiles here -->
-		</ul>
-	</section>
+  <table width="800" border="0" align="center" cellspacing="0" cellpadding="0">
+    <tr>
+      <td>
+        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+          <tr>
+            <td width="55%" valign="middle">
+              <p align="center">
+                <name>Mohita Chowdhury</name>
+              </p>
+              <p>
+              	I am currently working as a Senior AI Research Engineer at <a href="https://ufonia.com/">Ufonia </a>where I lead the work to improve the performance and intelligence of the autonomous telemedicine clinical assistant using natural language processing. 
+              	</p>
+              <p>
+              	I graduated with a Master's degree in Computer Science from the <a href="https://www.robots.ox.ac.uk/~vgg/">University of Oxford</a> in October 2020. For my Master's thesis, I worked with the <a href="https://www.amazon.science/">Visual Geometry Group (VGG)</a> on developing a zero-shot human-object interaction framework using visual, semantic and spatial modalities. This work was supervised by <a href="https://scholar.google.co.uk/citations?user=eJwbbXEAAAAJ&hl=en">Prof Phil Blunsom</a> and <a href="https://vicky.kalogeiton.info/">Dr Vicky Kalogeiton</a>
+              </p>
+              <p>
+                Previously, I've worked as a Research Assistant at the Hardware and Embedded Systems Lab at <a href="https://www.ntu.edu.sg/">Nanyang Technological University, Singapore</a> under <a href="https://www.ntu.edu.sg/scse/about-us/past-chairs/prof-thambipillai-srikanthan">Prof Thambipillai Srikanthan</a> and <a href="https://scholar.google.com.sg/citations?user=9m4ig7ES4ZkC&hl=en">Dr Nirmala Ramakrishnan</a>. I developed a low-cost algorithm to prune headlight reflections from foreground detectors for robust nighttime traffic surveillance.
+              </p>
+              <p>
+                I've also interned at the <a href="https://web.iitd.ac.in/~brejesh/research.html">Samsung Innovation Lab</a> at  <a href="https://home.iitd.ac.in/">Indian Institute of Technology Delhi (IIT Delhi)</a> under <a href="https://web.iitd.ac.in/~brejesh/">Prof Brejesh Lall</a>. During this internship, I worked developing a framework for robust object segmentation using stereo images. 
+              </p>
+               <p>I have a Bachelor's degree in Electronics and Communication Engineering from <a href="http://www.nitk.ac.in/">National Institute of Technology Karnataka, Surathkal, India</a>. 
+              </p>
+              <p>
+                My <b>interests</b> are broadly in machine learning, natural language processing and computer vision. I have worked on problems in the domains of object segmentation, copy-move forgery detection, foreground detection, multimodel interaction detection, and conversational AI.
+              </p>
+              <p align=center>
+                <a href="mailto:chowdhury.mohita@gmail.com">Email</a> &nbsp/&nbsp
+                <a href="Mohita_Chowdhury_CV_.pdf">Resume</a> &nbsp/&nbsp
+
+                <a href="http://www.github.com/mohiitaa"> Github </a> &nbsp/&nbsp
+                <a href="http://www.linkedin.com/in/mohiitaa/"> LinkedIn </a>
+              </p>
+            </td>
+            <td width="45%">
+              <img width="99%" style="border-radius: 60%" src="pic.jpeg">
+            </td>
+          </tr>
+        </table>
+        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+          <tr>
+            <td width="100%" valign="middle">
+              <heading>Publications</heading>
+          	</td>
+          </tr>
+        </table>
+
+        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+        	<tr onmouseout="portrait_stop1()" onmouseover="portrait_start1()">
+            <td width="25%">
+              <div class="one">
+                <div class="two" id='portrait_image2'><img  height='95%' width='95%' src='cataract-pic.png'></div>
+                <img height='95%' width='95%' src='cataract-pic.png'>
+              </div>
+              <script type="text/javascript">
+                function portrait_start1() {
+                  document.getElementById('portrait_image2').style.opacity = "1";
+                }
+                function portrait_stop1() {
+                  document.getElementById('portrait_image2').style.opacity = "0";
+                }
+                portrait_stop1()
+              </script>
+            </td>
+            <td valign="top" width="75%">
+              <b>Can deep learning models understand natural language descriptions of patient symptoms following cataract surgery?</b>
+              <br>
+              OW Gardiner, <strong>Mohita Chowdhury</strong>, E Lim, A Higham, N de Pennington
+              <br>
+              <em>Investigative Ophthalmology & Visual Science (an ARVO Journal) 2022 (<a href="https://www.arvo.org/annual-meeting/">(ARVO 2022)</a>)</em>, Colorado, USA
+              <br>
+	
+              <a href="https://iovs.arvojournals.org/article.aspx?articleid=2782762">[Abstract]</a> 
+
+              <br> 
+              <br>
+              <em>Women in Machine Learning Workshop @NeurIPS(<a href="https://sites.google.com/view/wiml2022/home?authuser=0">(NeurIPS 2022)</a>)</em>, New Orleans, USA
+              <br>
+	
+              <a href="https://drive.google.com/file/d/12E-Cdn41Qbc2ezVqFwY8ddhcnXAKb-Ib/view?usp=sharing">[Poster]</a> 
+
+              <br> 
+
+              <p></p>
+              <p>The study uses data collected from 191 patients using an automated telephone platform that asks symptom-based questions to elicit postoperative concerns. We compare the ability of different machine learning techniques to understand patients' descriptions of their symptoms during a cataract surgery follow-up with Dora.
+              </p>
+
+            </td>
+          <!-- </tr> 
+          <tr>
+            <td width="25%">
+                <img width="160" height="160" src='q1.png'>
+            </td>
+            <td valign="top" width="75%">
+
+                <papertitle>An Approach for Multi-modal Medical Image Retrieval using Latent Dirichlet Allocation </papertitle>
+             
+              <br>
+              <a href="https://vikram-mm.github.io/">Mandikal Vikram</a>,
+              <strong>Aditya Anantharaman</strong>,
+              Suhas B S,
+              <a href="http://infotech.nitk.ac.in/faculty/sowmya-kamath-s">Sowmya Kamath</a>
+              <br>
+              <em>The ACM India Joint International Conference on Data Science & Management of Data (<a href="http://cods-comad.in/2019/">CoDS-COMAD</a>)</em>, Kolkata, India 2019 (Oral Presentation)
+              <br>
+	
+              <a href="https://dl.acm.org/citation.cfm?id=3297007">[Paper]</a> 
+              <a href="https://github.com/vikram-mm/Multimodal-Image-Retrieval">[Code]</a>
+              <br>
+              <br>
+              <em>A short version was accepted at the AI for Social Good Workshop, <a href="https://nips.cc/">NeurIPS</a>, Montreal, 2018</em>
+            <br>
+              <a href="https://aiforsocialgood.github.io/2018/pdfs/track1/75_aisg_neurips2018.pdf">[Paper]</a> 
+              <a href="cods_poster.pdf">[Poster]</a> 
+              <p></p>
+              <p>Latent Dirichlet Allocation (LDA) based technique for encoding the visual features of the medical images along with novel early fusion and late fusion techniques to combine the textual and visual features. </p>
+
+            </td>
+          </tr>    
+          <tr onmouseout="portrait_stop()" onmouseover="portrait_start()">
+            <td width="25%">
+              <div class="one">
+                <div class="two" id='portrait_image'><img  height='95%' width='95%' src='dep1.png'></div>
+                <img height='95%' width='95%' src='dep2.png'>
+              </div>
+              <script type="text/javascript">
+                function portrait_start() {
+                  document.getElementById('portrait_image').style.opacity = "1";
+                }
+                function portrait_stop() {
+                  document.getElementById('portrait_image').style.opacity = "0";
+                }
+                portrait_stop()
+              </script>
+            </td>
+
+            <td valign="top" width="75%">
+
+                <papertitle>Kinect Based Suspicious Posture Recognition for Real-Time Home Security Applications </papertitle>
+             
+              <br>
+              <a href="https://vikram-mm.github.io/">Mandikal Vikram</a>,
+              <strong>Aditya Anantharaman</strong>,
+              Suhas B S, Ashwin TS, 
+              <a href="http://infotech.nitk.ac.in/faculty/g-ram-mohana-reddy">Ram Mohana Reddy</a>
+              <br>
+              <em>IEEE <a href="http://indicon2018.in/">Indicon</a></em>, Coimbatore, India 2018
+              <br>
+  
+              <a href="IndiconPaper.pdf">[Paper]</a> 
+              <a href="Indicon_poster.pdf">[Poster]</a> 
+
+              <p></p>
+              <p>Using the Microsoft Kinect depth camera to detect suspicious postures and build a real-time home security system which is robust towards changing lighting conditions.</p>
+
+            </td>
+          </tr>   -->
+            
+        </table>
+<!--         
+        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+          <tr>
+            <td width="100%" valign="middle">
+              <heading>Industry</heading>
+            </td>
+          </tr>
+        </table>
+
+        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"> -->
+<!-- 
+          <tr>
+            <td width="25%">
+                <img width="160" height="160"src='micro.jpg'>
+            </td>
+            <td valign="top" width="75%">
+              <a href="https://www.microsoft.com/en-in/msidc/">
+                <papertitle>Microsoft (R&D), Hyderabad, India</papertitle>
+              </a>
+              <br>
+              May - July 2018
+
+              <br>
+              <a href="https://drive.google.com/file/d/1EvR4mtBUU92oprPaJBt84nIjMBbhcmKI/view?usp=sharing">[Certificate]</a> 
+
+              <p></p>
+              <p>Developed a plug and play service for effective management, monitoring and usage of Test clusters for the Azure Networking Team.
+              Facilitated easy check-in (locking) and check-out (unlocking) of clusters and devised health checks for the maintenance of clusters.
+              </p>
+
+            </td>
+          </tr>       
+        </table>
+        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+          <tr>
+            <td>
+              <heading>Selected Projects</heading>
+            </td>
+          </tr>
+        </table>
+        <table width="100%" align="center" border="0" cellpadding="20">
+          <tr>
+            <td width="25%"><img src="attention.png" alt="prl" width="160" height="160"></td>
+            <td width="75%" valign="top">
+              <p>
+                
+                <papertitle>Paraphrase Detection using Deep Learning</papertitle>
+               
+                <br>
+                Jan - Mar 2018
+                <br>
+              <a href="https://github.com/aditya5558/Paraphrase-detection/blob/master/Report.pdf">[Report]</a> 
+              <a href="https://github.com/aditya5558/Paraphrase-detection">[Code]</a> 
+                <p>
+                  <br> Applied paraphrase detection to the medical domain of clinical notes. Developed a Bidirectional RNN based model with multi perspective matching and Attention.
+                </p>
+                
+              </p>
+            </td>
+          </tr>
+          <tr onmouseout="portrait_stop2()" onmouseover="portrait_start2()">
+            <td width="25%">
+              <div class="one">
+                <div class="two" id='portrait_image3'><img  height='95%' width='95%' src='colosseo.jpg'></div>
+                <img height='95%' width='95%' src='colosseo_compressed.jpg'>
+              </div>
+              <script type="text/javascript">
+                function portrait_start2() {
+                  document.getElementById('portrait_image3').style.opacity = "1";
+                }
+                function portrait_stop2() {
+                  document.getElementById('portrait_image3').style.opacity = "0";
+                }
+                portrait_stop2()
+              </script>
+            </td> -->
+
+<!--         
+            <td width="75%" valign="top">
+              <p>
+                
+                <papertitle>Parallel k-means Clustering</papertitle>
+                
+                <br>
+                Sep - Nov 2017
+                <br>
+                <a href="https://github.com/hehaichi/Parallel-K-means">[Code]</a> 
+                <p>
+                  <br>Used k-means clustering for Image Colour Quantization and Image Compression.
+                k-means clustering implemented in parallel on 3 platforms - OpenMP, CUDA and MPI with performance comparison. Obtained a speed up of order 10^3 in CUDA due to data parallelism and a compression factor of 2.2.
+                </p>
+                
+              </p>
+            </td>
+          </tr>
+           <tr>
+            <td width="25%"><img src="android-malware.jpg" alt="prl" width="160" height="160">
+            <p>
+              <font size="1" px="">Image Credits:</font><a href="https://arstechnica.com/information-technology/2018/01/found-new-android-malware-with-never-before-seen-spying-capabilities/"><font size="1" px=""> Link</font></a>
+            </p>
+            </td>
+            <td width="75%" valign="top">
+              <p>
+                
+                <papertitle>Android Malware Detection</papertitle>
+                
+                <br>
+                Jan - Mar 2018
+                <br>
+              <a href="https://github.com/aditya5558/Android-Malware-Detection">[Code]</a> 
+                <p>
+                  <br> Developed a Deep Autoencoder model for feature compression along with CNN and RNN basedmodels. Performed pseudo-dynamic analysis of system API call sequences to generate features.
+                </p>
+                
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td width="25%"><img src="libo.png" alt="prl" width="160" height="160"></td>
+            <td width="75%" valign="top">
+              <p>
+                
+                <papertitle>LIBO - Android App</papertitle>
+               
+                <br>
+                Oct 2016
+                <br>
+              <a href="https://drive.google.com/file/d/0B8YBd6_9wsbsOERUaUU5a3JjV0E/view?usp=sharing">    
+              [Certificate]</a> 
+              <a href="https://github.com/aditya5558/libo-app">[Code]</a> 
+                <p>
+                  <br> Smart Library management app which integrates Microsoft Azure database and Microsoft cognitive services (OCR) and also uses basic recommender systems with the help of the apriori algorithm. Won 2nd position in online round of Microsoft code.fun.do hackathon.
+
+                </p>
+                
+              </p>
+            </td>
+          </tr>
+        </table> -->
+
+        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+          <tr>
+            <td>
+              <br>
+              <p align="right">
+                <font size="2">
+                  <a href="https://jonbarron.info/"><strong>Website Template</strong></a>
+                  </font>
+              </p>
+            </td>
+          </tr>
+        </table>
+        <script type="text/javascript">
+          var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+          document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+        </script>
+        <script type="text/javascript">
+          try {
+            var pageTracker = _gat._getTracker("UA-7580334-1");
+            pageTracker._trackPageview();
+          } catch (err) {}
+        </script>
+        </td>
+    </tr>
+  </table>
 </body>
+
 </html>
