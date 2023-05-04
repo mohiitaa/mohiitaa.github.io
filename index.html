@@ -10,7 +10,7 @@
 			background-color: #F5F5F5;
 		}
 		header {
-			background-color: #333;
+			background-color: #2B4162;
 			color: #FFF;
 			padding: 20px;
 			text-align: center;
@@ -18,6 +18,7 @@
 		h1 {
 			font-size: 36px;
 			margin-bottom: 10px;
+			color: #FFF;
 		}
 		img {
 			display: block;
@@ -38,14 +39,16 @@
 		h2 {
 			font-size: 24px;
 			margin-bottom: 10px;
+			color: #2B4162;
 		}
 		p {
 			font-size: 16px;
 			line-height: 1.5;
 			margin-bottom: 20px;
+			color: #444;
 		}
 		a {
-			color: #333;
+			color: #2B4162;
 			text-decoration: none;
 			font-weight: bold;
 		}
@@ -55,7 +58,22 @@
 			margin: 0;
 		}
 		li {
-			margin-bottom: 5px;
+			margin-bottom: 20px;
+			overflow: hidden;
+			padding-left: 100px;
+			position: relative;
+			border-left: 4px solid #2B4162;
+			padding-top: 20px;
+			padding-bottom: 20px;
+		}
+		li img {
+			border: 1px solid #DDD;
+			border-radius: 5px;
+			float: left;
+			height: 80px;
+			margin-left: -100px;
+			margin-right: 10px;
+			width: 80px;
 		}
 	</style>
 </head>
@@ -76,6 +94,21 @@
 	<section>
 		<h2>Research</h2>
 		<p>Mention your publications and link your papers here.</p>
+        <ul>
+			<li>
+				<img src="pic.jpeg" alt="Publication 1 Image">
+				<h3>Can deep learning models understand natural language descriptions of patient symptoms following cataract surgery?</h3>
+				<p>Publication 1 Description</p>
+				<a href="https://iovs.arvojournals.org/article.aspx?articleid=2782762">ARVO</a>
+			</li>
+			<!-- <li>
+				<img src="publication_2_image.jpg" alt="Publication 2 Image">
+				<h3>Publication 2 Title</h3>
+				<p>Publication 2 Description</p>
+				<a href="publication_2_link">Publication 2 Link</a>
+			</li> -->
+			<!-- Add more publication tiles here -->
+		</ul>
 	</section>
 </body>
 </html>
